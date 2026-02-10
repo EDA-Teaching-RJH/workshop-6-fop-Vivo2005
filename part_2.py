@@ -18,5 +18,6 @@ mission_log= [
 {"Site": "Crater A", "Radiation": "Low", "Water": False},
 {"Site": "Dune B", "Radiation": "High", "Water": True}
 ]
-for i in len(mission_log):
-    print("site", ["site"][i]," has", ["Radiation"][i], "Radiation")
+
+for log in mission_log:
+    print("site", log["Site"],"has",log["Radiation"],"radiation")
